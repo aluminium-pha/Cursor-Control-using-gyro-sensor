@@ -18,8 +18,7 @@ By tilting the sensor about 90 degrees in different directions, you can move the
 - MPU6050 Accelerometer + Gyroscope sensor
 - Jumper Wires (Male-to-Female recommended)
 - USB Cable (for Arduino-PC connection)
-- (Optional) Push Buttons / Flex Sensors for clicks
-
+  
 ---
 
 ##  Connections
@@ -35,11 +34,8 @@ By tilting the sensor about 90 degrees in different directions, you can move the
 ## ⚙️ Installation & Setup
 ### 1. Arduino Setup
 - Install **Arduino IDE**.
-- Install the `MPU6050` and `Wire` libraries.
-- Upload the `mpu6050_cursor.ino` code to your Arduino.
 
 ### 2. Python Setup
 - Install Python 3.x
 - Install required libraries:
-  ```bash
-  pip install pyautogui pyserial
+  "pip install pyautogui pyserial"
